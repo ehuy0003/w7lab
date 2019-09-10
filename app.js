@@ -148,9 +148,6 @@ app.post('/updatetaskdata', function (req, res) {
     res.redirect('/gettasks');// redirect the client to list users page
 });
 
-
-
-
 app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'html');
 
